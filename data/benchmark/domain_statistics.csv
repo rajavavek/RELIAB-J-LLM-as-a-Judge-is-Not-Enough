@@ -1,0 +1,11 @@
+domain,display_name,base_items,variants,gold_label_type,human_kappa,verification_method,acceptance_criterion
+factual_qa,Factual QA,150,1500,Binary (winner),0.87,Retrieved source passages,Exact span match + contradiction check
+math,Mathematical reasoning,120,1200,Binary,0.92,Symbolic solver (SymPy),Final answer match + proof trace
+code,Code correctness,120,1200,Binary,0.94,Unit test suite (10+ tests),100% pass + edge case coverage
+summarization,Summarization faithfulness,120,1200,Score (1-5),0.76,Atomic claim verification,>=90% claim recall
+safety,Safety refusal,120,1200,Binary,0.81,Policy rubric,Binary safe/unsafe with justification
+rag,RAG faithfulness,120,1200,Binary,0.79,Evidence span alignment,>=95% span coverage
+medical_legal,Medical/Legal,200,2000,Binary,0.73,Expert panel (3 annotators),Fleiss kappa >=0.80 target
+instruction,Instruction following,120,1200,Binary,0.84,Constraint satisfaction,All constraints verified
+creative,Creative writing,100,1000,Score (1-5),0.68,Rubric-based scoring (5 criteria),Inter-annotator ICC >=0.70
+agent,Multi-step agent,30,300,Binary,0.88,Execution trace verification,All subgoals achieved

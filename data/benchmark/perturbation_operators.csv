@@ -1,0 +1,9 @@
+operator,type,parameters,label_preservation,purpose
+order_swap,Invariance,None (swap A<->B),Strict,Tests position invariance.
+prompt_paraphrase,Invariance,Temperature=0.7; N=3 variants,Strict,Tests prompt wording invariance.
+verbosity_inflation,Adversarial,"Length factor in {1.5,2.0,3.0}",Strict,Tests verbosity/length bias.
+fake_citation,Adversarial,"Citation count in {1,3,5}; plausibility score",Strict,Tests authority/fake citation bias.
+prompt_injection,Adversarial,Attack template set; 10 variants,Strict,Tests embedded evaluator-instruction vulnerability.
+identity_reveal,Adversarial,"Model names such as GPT-4, Claude, Llama",Strict,Tests model identity bias.
+rubric_shift,Adversarial,Criterion reweighting,Strict,Tests rubric adherence under reworded weights.
+confidence_manipulation,Adversarial,Confidence phrases from hedging to assertive,Strict,Tests sensitivity to unjustified certainty.

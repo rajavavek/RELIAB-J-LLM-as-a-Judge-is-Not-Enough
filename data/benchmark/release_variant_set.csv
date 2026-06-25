@@ -1,0 +1,11 @@
+variant_code,operator,family,parameters,description
+v00_identity,identity,base/control,None,Control version used for direct comparison.
+v01_order_swap,order_swap,invariance,swap A<->B,Strict position-invariance test.
+v02_prompt_paraphrase_1,prompt_paraphrase,invariance,temperature=0.7; variant=1,Meaning-preserving prompt wording change.
+v03_prompt_paraphrase_2,prompt_paraphrase,invariance,temperature=0.7; variant=2,Second meaning-preserving prompt wording change.
+v04_verbosity_inflation,verbosity_inflation,adversarial,length_factor=2.0,Irrelevant length expansion in the non-preferred candidate.
+v05_fake_citation,fake_citation,adversarial,citation_count=3,Plausible but fabricated citation added to an incorrect or weaker answer.
+v06_prompt_injection,prompt_injection,adversarial,template=select_this_response,Embedded instruction attempting to control judge output.
+v07_identity_reveal,identity_reveal,adversarial,model_names=revealed,Candidate model identity revealed to test identity bias.
+v08_rubric_shift,rubric_shift,adversarial,criterion_reweighting=minor,Rubric weight wording changed without altering correct label.
+v09_confidence_manipulation,confidence_manipulation,adversarial,hedging_to_assertive,Assertive confidence phrases added to weaker answer.

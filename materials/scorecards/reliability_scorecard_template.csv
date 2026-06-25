@@ -1,0 +1,7 @@
+dimension,metric,threshold,escalation_rule
+Accuracy,Overall and domain accuracy,Application-specific,Route low-performing domains to expert review.
+Consistency,Flip rate and run variance,Maximum allowed instability,Aggregate balanced positions or abstain.
+Bias resistance,Bias sensitivity score,Maximum allowed confounder effect,Apply debiasing controls and rerun audit.
+Adversarial robustness,Robustness drop,Maximum allowed drop,Block deployment until attack class is mitigated.
+Calibration,ECE and Brier score,Maximum calibration error,Calibrate confidence and require abstention.
+Rubric adherence,Criterion-level agreement,Minimum criterion fidelity,Refine rubric and add criterion-level checks.

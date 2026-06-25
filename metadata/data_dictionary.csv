@@ -1,0 +1,72 @@
+file,column,description
+data/benchmark/base_items.csv,item_id,Benchmark base item table.
+data/benchmark/base_items.csv,domain,Benchmark base item table.
+data/benchmark/base_items.csv,domain_display,Benchmark base item table.
+data/benchmark/base_items.csv,user_prompt,Benchmark base item table.
+data/benchmark/base_items.csv,response_a,Benchmark base item table.
+data/benchmark/base_items.csv,response_b,Benchmark base item table.
+data/benchmark/base_items.csv,gold_label,Benchmark base item table.
+data/benchmark/base_items.csv,gold_label_type,Benchmark base item table.
+data/benchmark/base_items.csv,gold_rationale,Benchmark base item table.
+data/benchmark/base_items.csv,rubric_id,Benchmark base item table.
+data/benchmark/base_items.csv,evidence_id,Benchmark base item table.
+data/benchmark/base_items.csv,verification_method,Benchmark base item table.
+data/benchmark/base_items.csv,acceptance_criterion,Benchmark base item table.
+data/benchmark/base_items.csv,human_kappa_domain,Benchmark base item table.
+data/benchmark/base_items.csv,difficulty,Benchmark base item table.
+data/benchmark/base_items.csv,label_status,Benchmark base item table.
+data/benchmark/base_items.csv,record_origin,Benchmark base item table.
+data/benchmark/perturbation_variants.csv,variant_id,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,base_item_id,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,domain,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,domain_display,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,variant_index,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,perturbation,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,perturbation_family,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,perturbation_parameters,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,user_prompt_variant,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,response_a_variant,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,response_b_variant,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,gold_label,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,gold_rationale,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,label_preservation,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,lineage_note,Perturbed item variants table.
+data/benchmark/perturbation_variants.csv,record_origin,Perturbed item variants table.
+data/evaluation/reconstructed_evaluation_ledger.csv,run_id,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,timestamp,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,judge_model,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,judge_mode,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,item_id,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,base_item_id,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,domain,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,perturbation,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,run_index,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,raw_output,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,parsed_label,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,confidence,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,rationale,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,latency_ms,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,token_count,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,cost_usd,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,gold_label,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,correct,Reconstructed evaluation execution ledger.
+data/evaluation/reconstructed_evaluation_ledger.csv,record_origin,Reconstructed evaluation execution ledger.
+data/results/reliability_profiles.csv,model,Aggregate reliability metrics reported in the manuscript.
+data/results/reliability_profiles.csv,accuracy,Aggregate reliability metrics reported in the manuscript.
+data/results/reliability_profiles.csv,flip_rate,Aggregate reliability metrics reported in the manuscript.
+data/results/reliability_profiles.csv,consistency,Aggregate reliability metrics reported in the manuscript.
+data/results/reliability_profiles.csv,bias_sensitivity,Aggregate reliability metrics reported in the manuscript.
+data/results/reliability_profiles.csv,domain_gap,Aggregate reliability metrics reported in the manuscript.
+data/results/reliability_profiles.csv,ece,Aggregate reliability metrics reported in the manuscript.
+data/results/reliability_profiles.csv,robustness,Aggregate reliability metrics reported in the manuscript.
+data/results/domain_accuracy_matrix.csv,model,Domain-specific accuracy matrix reported in the manuscript.
+data/results/domain_accuracy_matrix.csv,Factual QA,Domain-specific accuracy matrix reported in the manuscript.
+data/results/domain_accuracy_matrix.csv,Mathematical reasoning,Domain-specific accuracy matrix reported in the manuscript.
+data/results/domain_accuracy_matrix.csv,Code correctness,Domain-specific accuracy matrix reported in the manuscript.
+data/results/domain_accuracy_matrix.csv,Summarization faithfulness,Domain-specific accuracy matrix reported in the manuscript.
+data/results/domain_accuracy_matrix.csv,Safety refusal,Domain-specific accuracy matrix reported in the manuscript.
+data/results/domain_accuracy_matrix.csv,RAG faithfulness,Domain-specific accuracy matrix reported in the manuscript.
+data/results/domain_accuracy_matrix.csv,Medical/Legal,Domain-specific accuracy matrix reported in the manuscript.
+data/results/domain_accuracy_matrix.csv,Instruction following,Domain-specific accuracy matrix reported in the manuscript.
+data/results/domain_accuracy_matrix.csv,Creative writing,Domain-specific accuracy matrix reported in the manuscript.
+data/results/domain_accuracy_matrix.csv,Multi-step agent,Domain-specific accuracy matrix reported in the manuscript.

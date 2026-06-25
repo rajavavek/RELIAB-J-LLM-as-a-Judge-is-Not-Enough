@@ -1,0 +1,20 @@
+field,type,description
+run_id,UUID,Full evaluation run identifier.
+timestamp,ISO 8601 datetime,Timestamp of the judge execution.
+judge_model,string,Model identifier and public model name.
+judge_mode,enum,"scalar, pair, rubric, rationale, multi, or hitl."
+item_id,string,Perturbation variant identifier.
+base_item_id,string,Base benchmark item identifier.
+domain,string,Benchmark domain.
+perturbation,string,Operator name.
+run_index,integer,Run index.
+raw_output,text,Structured output returned by the judge; here reconstructed as JSON-like text.
+parsed_label,string,Parsed decision label.
+confidence,float,Judge confidence on 0-1 scale.
+rationale,text,Short rationale or audit note.
+latency_ms,integer,Execution latency in milliseconds.
+token_count,integer,Approximate total token count.
+cost_usd,float,Estimated cost for execution.
+gold_label,string,Gold label for the perturbed item.
+correct,boolean,Whether parsed_label equals gold_label.
+record_origin,string,Origin/provenance label for the record.

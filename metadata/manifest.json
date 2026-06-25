@@ -1,0 +1,34 @@
+{
+  "package_title": "RELIAB-J Publication Data and Materials Package",
+  "manuscript_title": "LLM-as-a-Judge is Not Enough: A Reliability Benchmark for AI Evaluation",
+  "version": "1.0.0-manuscript-reconstructed",
+  "release_date": "2026-06-22",
+  "authors": [
+    {
+      "given-names": "Raja",
+      "family-names": "Vavekanand",
+      "email": "rvavekan@gmail.com",
+      "affiliation": "Department of Information Technology, Benazir Bhutto Shaheed University Lyari, Karachi, Pakistan"
+    },
+    {
+      "given-names": "Teerath",
+      "family-names": "Kumar",
+      "email": "teerathkumar.menghwar@atu.ie",
+      "affiliation": "School of Computing, Atlantic Technological University, Letterkenny, Ireland"
+    }
+  ],
+  "counts": {
+    "base_items": 1200,
+    "perturbation_variants": 12000,
+    "reconstructed_evaluation_ledger_rows": 84000,
+    "domains": 10,
+    "primary_ledger_judges": 7,
+    "aggregate_result_models": 8
+  },
+  "provenance": {
+    "source_pdf": "LLM_as_a_Judge_is_Not_Enough__A_Reliability_Benchmark_for_AI_Evaluation (1)(1).pdf",
+    "source_basis": "Uploaded manuscript PDF and reported tables/appendices.",
+    "important_note": "The uploaded PDF did not include original raw API logs, annotator spreadsheets, or private evidence files. Item texts and ledger records in this package are manuscript-consistent reconstructed public-release materials, not independently verified raw model-output logs.",
+    "known_manuscript_inconsistency": "The manuscript states seven judge models and 84,000 API calls (7 x 12,000), while result tables also report RewardBench-rm as an additional specialized reward model. Table 7 also lists row-level domain counts that sum to 1,100 even though the stated total is 1,200; this release reconciles the total by representing Medical/Legal as 200 items (100 medical + 100 legal). This package follows the 84,000-row ledger for seven primary LLM judges and keeps RewardBench-rm in aggregate result tables."
+  }
+}

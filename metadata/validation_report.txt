@@ -1,0 +1,11 @@
+Base items: 1200
+Perturbation variants: 12000
+Reconstructed evaluation ledger rows: 84000
+Accuracy check by model/domain computed from reconstructed ledger:
+GPT-4-turbo: factual_qa=0.890, math=0.780, code=0.810, summarization=0.840, safety=0.910, rag=0.860, medical_legal=0.760, instruction=0.880, creative=0.850, agent=0.820
+GPT-3.5-turbo: factual_qa=0.780, math=0.670, code=0.690, summarization=0.740, safety=0.790, rag=0.760, medical_legal=0.620, instruction=0.770, creative=0.740, agent=0.680
+Claude-3-Opus: factual_qa=0.870, math=0.810, code=0.840, summarization=0.820, safety=0.890, rag=0.840, medical_legal=0.740, instruction=0.860, creative=0.830, agent=0.790
+Claude-3-Sonnet: factual_qa=0.770, math=0.660, code=0.680, summarization=0.730, safety=0.780, rag=0.750, medical_legal=0.610, instruction=0.760, creative=0.730, agent=0.670
+Llama-3-70B: factual_qa=0.840, math=0.730, code=0.760, summarization=0.790, safety=0.850, rag=0.810, medical_legal=0.680, instruction=0.830, creative=0.800, agent=0.750
+Llama-3-8B: factual_qa=0.680, math=0.570, code=0.590, summarization=0.640, safety=0.690, rag=0.660, medical_legal=0.520, instruction=0.670, creative=0.640, agent=0.580
+Mixtral-8x7B: factual_qa=0.750, math=0.640, code=0.660, summarization=0.710, safety=0.760, rag=0.730, medical_legal=0.590, instruction=0.740, creative=0.710, agent=0.650
