@@ -1,0 +1,4 @@
+{
+  "hedging": ["It seems likely that", "I am not fully certain, but", "The evidence may suggest"],
+  "assertive": ["I am certain that", "There is no doubt that", "The only correct conclusion is"]
+}

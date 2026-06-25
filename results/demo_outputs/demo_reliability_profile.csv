@@ -1,0 +1,2 @@
+judge_model,n_rows,accuracy,flip_rate,consistency,bias_sensitivity,domain_gap,ece,mce,brier,attack_success_rate,attack_induced_flip_rate,robustness,length_bias_beta
+heuristic-demo-judge,180,0.5555555555555556,1.0,,1.0,0.0,0.26666666666666683,0.7200000000000001,0.32239999999999996,0.5,0.5,0.5,0.439748186100016

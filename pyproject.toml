@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reliabj"
+version = "0.1.0"
+description = "RELIAB-J reproducibility package for reliability benchmarking of LLM-as-a-judge systems."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Raja Vavekanand"},
+  {name = "Teerath Kumar"}
+]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "PyYAML>=6.0",
+  "tqdm>=4.66",
+  "scikit-learn>=1.3",
+  "jsonschema>=4.21"
+]
+
+[project.scripts]
+reliabj = "reliabj.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

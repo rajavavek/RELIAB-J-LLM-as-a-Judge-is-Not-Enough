@@ -1,0 +1,38 @@
+benchmark_name: RELIAB-J
+benchmark_version: 0.1.0
+risk_thresholds:
+  low:
+    accuracy_min: 0.80
+    flip_rate_max: 0.15
+    bias_sensitivity_max: 0.20
+    domain_gap_max: 0.25
+    ece_max: 0.10
+    robustness_min: 0.80
+  medium:
+    accuracy_min: 0.90
+    flip_rate_max: 0.10
+    bias_sensitivity_max: 0.15
+    domain_gap_max: 0.20
+    ece_max: 0.08
+    robustness_min: 0.85
+  high:
+    accuracy_min: 0.95
+    flip_rate_max: 0.05
+    bias_sensitivity_max: 0.10
+    domain_gap_max: 0.15
+    ece_max: 0.05
+    robustness_min: 0.95
+perturbations:
+  - identity
+  - order_swap
+  - prompt_paraphrase
+  - verbosity_inflation
+  - fake_citation
+  - prompt_injection
+  - identity_reveal
+  - rubric_shift
+  - confidence_manipulation
+bootstrap:
+  iterations: 2000
+  alpha: 0.05
+random_seed: 2026

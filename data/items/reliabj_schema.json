@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RELIAB-J base item schema",
+  "type": "object",
+  "required": ["item_id", "domain", "task_type", "prompt", "responses", "rubric", "gold_label", "evidence"],
+  "properties": {
+    "item_id": {"type": "string"},
+    "domain": {
+      "type": "string",
+      "enum": [
+        "factual_qa", "math", "code", "summarization", "safety", "rag",
+        "medical_legal", "instruction_following", "creative_writing", "agent"
+      ]
+    },
+    "task_type": {"type": "string", "enum": ["pairwise", "scalar", "binary"]},
+    "prompt": {"type": "string"},
+    "responses": {
+      "type": "object",
+      "properties": {
+        "A": {"type": "string"},
+        "B": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "rubric": {"type": "string"},
+    "context": {"type": ["string", "null"]},
+    "gold_label": {"type": ["string", "number", "integer"]},
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "verification_method": {"type": "string"},
+        "notes": {"type": "string"},
+        "source": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "metadata": {"type": "object"}
+  },
+  "additionalProperties": true
+}

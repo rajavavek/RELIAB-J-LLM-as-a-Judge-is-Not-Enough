@@ -1,0 +1,336 @@
+{
+  "repo_name": "RELIAB-J",
+  "created_utc": "2026-06-25T18:39:22.997109Z",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 69,
+      "sha256": "d5e2b2ce0c721b5226545269b829b12ad61da20aa491d7fbcc32fb94cdd04548"
+    },
+    {
+      "path": ".github/workflows/python-tests.yml",
+      "bytes": 353,
+      "sha256": "ce139ec2e2c44338230a81627578292f189105b1f4b803017d502c6cf3024de0"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 185,
+      "sha256": "2372b270e33477070a63331e0d54934a834cfb528ceece1e39edce400e880239"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 404,
+      "sha256": "42118ec73fb6e7192aa16a1b067dff025818574a894bc50e4fc7b4047fc77737"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1090,
+      "sha256": "f8292dbadd032300debfa1f9294203f8c4a9fd490fbb4b0612537043ce03cd5a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5183,
+      "sha256": "added733d1b185df8617b423c19d8266524115df51dd778c4564222d9d446adf"
+    },
+    {
+      "path": "config/benchmark.yaml",
+      "bytes": 785,
+      "sha256": "099144eba0adabbaaa3d8c8fd7bd28033e838904160f716d6b5131cc594e2c37"
+    },
+    {
+      "path": "config/model_settings.yaml",
+      "bytes": 1575,
+      "sha256": "bd2eb70398d5196e2863a29f91c09e7b64689cdb2ef724e752deff9352d51aed"
+    },
+    {
+      "path": "data/annotations/annotation_guidelines.md",
+      "bytes": 1508,
+      "sha256": "0aa4e57efcb8ea7d2159176affdde7da5b92e5c844fe80d2795d510679592e8e"
+    },
+    {
+      "path": "data/annotations/annotation_sheet_template.csv",
+      "bytes": 631,
+      "sha256": "221ce0cf40b7d155270bcef1dbfc86014097fec2dc04beef95cffc3a0206ad0e"
+    },
+    {
+      "path": "data/items/reliabj_schema.json",
+      "bytes": 1253,
+      "sha256": "1242c462618e9586fbc592ae702368c7a55db7fbd734e4804d3fb1804489f10a"
+    },
+    {
+      "path": "data/items/sample_base_items.jsonl",
+      "bytes": 17481,
+      "sha256": "ed93f2d760f020f0e193af773ead3d078b95953b9fb1864e83d27fa9b3a5732b"
+    },
+    {
+      "path": "data/ledger/README.md",
+      "bytes": 652,
+      "sha256": "11febf434321239b26e170f0a3fcadebd4294a19d1b30bc5bbd1980346d537fe"
+    },
+    {
+      "path": "data/ledger/sample_demo_ledger.csv",
+      "bytes": 64061,
+      "sha256": "8e4125f01175284fb15db482d6f302f52ff01ec3d327dc28477ebd2ea9adf61f"
+    },
+    {
+      "path": "data/perturbation_templates/confidence_phrases.json",
+      "bytes": 199,
+      "sha256": "a5c57632ec70e36e3b7f275e78861135df50184e553dfee137edf02ebb504223"
+    },
+    {
+      "path": "data/perturbation_templates/fake_citation_templates.jsonl",
+      "bytes": 316,
+      "sha256": "f524a281b3f5ea0a5c887042a601572be477bb4b93af10373c0c5b29990dd5de"
+    },
+    {
+      "path": "data/perturbation_templates/prompt_injection_templates.jsonl",
+      "bytes": 577,
+      "sha256": "14adf214ad09016c120f656cc5ce53f7c53062beac6ed013ee7ca19076bfb145"
+    },
+    {
+      "path": "data/prompts/hitl_escalation_prompt.txt",
+      "bytes": 336,
+      "sha256": "d2f3f1e575fc7d80ad85837f0bdf3479dee02810a799e6ac36652dc4c395ac74"
+    },
+    {
+      "path": "data/prompts/pairwise_judge_v1.txt",
+      "bytes": 343,
+      "sha256": "2559756997fb9a9f6653d68803d27cd34e3f5c2fed5c7928a17f9620a8a61ab3"
+    },
+    {
+      "path": "data/prompts/rubric_judge_v1.txt",
+      "bytes": 440,
+      "sha256": "0ac3b04319059314eebb3df4904218545aa5506a7637960271bb18b8ca4208a5"
+    },
+    {
+      "path": "data/prompts/scalar_judge_v1.txt",
+      "bytes": 311,
+      "sha256": "38efc5441fb13503365f4374b5641bff6fec9e3e980f266af359a81c30640288"
+    },
+    {
+      "path": "data/prompts/system_judge.txt",
+      "bytes": 255,
+      "sha256": "b07f7c5cef0f72b25817ebb3508c5c7dfd24c219166891baa8d98d5cb3ac65b9"
+    },
+    {
+      "path": "examples/full_reproduction_workflow.md",
+      "bytes": 673,
+      "sha256": "671ea24ad5feeb7f9623a847049199d0d56b4c074fb54a57110bf2f2c2e177a6"
+    },
+    {
+      "path": "paper/data_code_availability.tex",
+      "bytes": 1872,
+      "sha256": "1635e2fbfda465f0279aea2a1e7eb6df09c8b8ddfa7e99baea838d1762c96e3b"
+    },
+    {
+      "path": "paper/reproducibility_checklist.tex",
+      "bytes": 1077,
+      "sha256": "6980470821bb28a51850d0fdb6fd3cc95243048789359e4c1d263eedef47a24a"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 616,
+      "sha256": "419e6b0a77ab6c0ec0c9880b38e750e0bd0817109490036f4264c74c24b94a01"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 101,
+      "sha256": "25b605cd813648de75efc32702e0a9cc9b0fef0fd4ba79a1841ef414007c0e72"
+    },
+    {
+      "path": "results/demo_outputs/demo_accuracy_ci.csv",
+      "bytes": 133,
+      "sha256": "88bd12b07b6cadd5a8c1076ee79068fe7cd25a6d3f9d7499a973cf781bc77c0f"
+    },
+    {
+      "path": "results/demo_outputs/demo_reliability_profile.csv",
+      "bytes": 311,
+      "sha256": "f91643aabb03be9a26c0cb0b70489b68c1d2933092558ff99633b16c3a40155e"
+    },
+    {
+      "path": "results/demo_outputs/demo_reliability_profile_domain_accuracy.csv",
+      "bytes": 311,
+      "sha256": "ceab8b111fbf9a9673c2c038f8a8558614e4cbbef985eb2985021e7fbb551572"
+    },
+    {
+      "path": "results/demo_outputs/sample_variants.jsonl",
+      "bytes": 188769,
+      "sha256": "61c52af3e61ac833c09f5dcd00573c913224d86f4e692c51d82a38a6d880d2b9"
+    },
+    {
+      "path": "results/reported_summary/table13_attack_success_rates.csv",
+      "bytes": 294,
+      "sha256": "a8c2f9f5b2e8d227f4e45e88737c73f7942d1c763a5ee0f4abb39dd4ca72309a"
+    },
+    {
+      "path": "results/reported_summary/table14_calibration_metrics.csv",
+      "bytes": 254,
+      "sha256": "2e70327580026ad2dc40574ab26caca80bffe8c2da41838c54df0d40751c6f4a"
+    },
+    {
+      "path": "results/reported_summary/table7_dataset_statistics.csv",
+      "bytes": 499,
+      "sha256": "38e958861d9d6ba6a10544b3f7ee63b43d1083a38f8a461e1e0e0911d9b53adc"
+    },
+    {
+      "path": "results/reported_summary/table8_reliability_profiles.csv",
+      "bytes": 502,
+      "sha256": "174c64a7306238cacb3ba0d0764559e49ee3d5a3317b7e5fe72d7314e6846333"
+    },
+    {
+      "path": "scripts/01_validate_items.py",
+      "bytes": 692,
+      "sha256": "43d65cd55064783391641fc33342d6573b6e5e836ac476d3d25016d2513f689a"
+    },
+    {
+      "path": "scripts/02_generate_variants.py",
+      "bytes": 899,
+      "sha256": "15ac3f90300615037be099767eaafa3874008d11693f8c3c396fead6d5b74be0"
+    },
+    {
+      "path": "scripts/03_run_judges.py",
+      "bytes": 3643,
+      "sha256": "856ed4beaa3854113b813170a6a10c37df8c4060ed033bb2ac2a6874eba4fb4e"
+    },
+    {
+      "path": "scripts/04_compute_metrics.py",
+      "bytes": 955,
+      "sha256": "516ebaa88906c318ee4532298f73efa317d55c80b182f8f8f04763071c5fc209"
+    },
+    {
+      "path": "scripts/05_bootstrap_ci.py",
+      "bytes": 1293,
+      "sha256": "1f497a806187b181cd5c98900f5058839f688c1b3a827a41d8679aec3dedf6fa"
+    },
+    {
+      "path": "scripts/06_make_public_release.py",
+      "bytes": 1493,
+      "sha256": "f76bd2635786f5af415e0a984861666b11ba7c16573a067ca74f15ae67338588"
+    },
+    {
+      "path": "src/reliabj/__init__.py",
+      "bytes": 68,
+      "sha256": "b8ba4d551d1b5a220ea653afbb5d5011d52c729fcc50241f44b12a1e14d1d823"
+    },
+    {
+      "path": "src/reliabj/__pycache__/__init__.cpython-313.pyc",
+      "bytes": 234,
+      "sha256": "1f837504fdb731857a8e42f2083088d49e6fb89c2f4d8eedcdc8c6de82ef4177"
+    },
+    {
+      "path": "src/reliabj/__pycache__/bootstrap.cpython-313.pyc",
+      "bytes": 1968,
+      "sha256": "5eb6e1c1a6d2aa5b7ef012223210545735c8bc8e759fe43c2cf36fd46d2edf8c"
+    },
+    {
+      "path": "src/reliabj/__pycache__/io.cpython-313.pyc",
+      "bytes": 1908,
+      "sha256": "38d8fba5d5dcf10a7169c79d469780fef3aec144e4024f12a52e7417c4ba0579"
+    },
+    {
+      "path": "src/reliabj/__pycache__/judges.cpython-313.pyc",
+      "bytes": 6402,
+      "sha256": "8ae09d4425ca808743b5119f694a19063102351448b84d457594a34e1525638c"
+    },
+    {
+      "path": "src/reliabj/__pycache__/ledger.cpython-313.pyc",
+      "bytes": 1695,
+      "sha256": "24a4363b0a6954a8dbc805173c4fff195a8c08d3f20e7ea3d62698fb09fdd011"
+    },
+    {
+      "path": "src/reliabj/__pycache__/metrics.cpython-313.pyc",
+      "bytes": 13120,
+      "sha256": "c96d0a8033eeac6e7d715bd200bc4c324910592e8043c0047331fd6286400041"
+    },
+    {
+      "path": "src/reliabj/__pycache__/parsers.cpython-313.pyc",
+      "bytes": 3665,
+      "sha256": "2f01caa459024fcca9d2532185044f096197f4d888dd362eb02a320dda3266c0"
+    },
+    {
+      "path": "src/reliabj/__pycache__/perturbations.cpython-313.pyc",
+      "bytes": 5463,
+      "sha256": "7f013b5b3f845eeab82cb7971f021b27ce3db90d91adcde52e5073241f9e848a"
+    },
+    {
+      "path": "src/reliabj/__pycache__/prompts.cpython-313.pyc",
+      "bytes": 1194,
+      "sha256": "f84241cadd7c5026023f7a45f19481d0fc1276398a3fae795db6dacc36ff7475"
+    },
+    {
+      "path": "src/reliabj/__pycache__/schema.cpython-313.pyc",
+      "bytes": 2473,
+      "sha256": "237f7cee29612cc97ae5cfb60be974b9e6d18992699377f6ec8cbbb94495c08b"
+    },
+    {
+      "path": "src/reliabj/bootstrap.py",
+      "bytes": 947,
+      "sha256": "14b042deca863211b2a102e6be90ed1d35887e264f88896469dc50f5743abb52"
+    },
+    {
+      "path": "src/reliabj/cli.py",
+      "bytes": 373,
+      "sha256": "a0eac0e9c23c4a1810fbb117a77655e1c0ac3e62a4bba9677742386f442ed756"
+    },
+    {
+      "path": "src/reliabj/io.py",
+      "bytes": 890,
+      "sha256": "4f35a5e59247bc164cebc0b10b41c2e25792ddb2135d2dfe8fd45ec5668caa75"
+    },
+    {
+      "path": "src/reliabj/judges.py",
+      "bytes": 4307,
+      "sha256": "d1e511cbad5d5f8df83dc59e87e6de303771efb6f1d2d446278ce71d88678cb3"
+    },
+    {
+      "path": "src/reliabj/ledger.py",
+      "bytes": 936,
+      "sha256": "6c9b47a98ebd0269094154d0928203c928aa03d8a48347415b80544361efe4b3"
+    },
+    {
+      "path": "src/reliabj/metrics.py",
+      "bytes": 7913,
+      "sha256": "3e9836d2bb55ffd50450c2149c59945b0e9bee3002ea250330d23d5e3d113dd0"
+    },
+    {
+      "path": "src/reliabj/parsers.py",
+      "bytes": 2140,
+      "sha256": "28708c89b3a4ebd8f966b591409a8b0bf0bfd5995304c9b63ffc3d4c3415ba1d"
+    },
+    {
+      "path": "src/reliabj/perturbations.py",
+      "bytes": 4114,
+      "sha256": "7954aeb72607fbb87fd4a51e661a1d978b034dd16fdc445aa248d6291b10c0e1"
+    },
+    {
+      "path": "src/reliabj/prompts.py",
+      "bytes": 565,
+      "sha256": "8404513f1ca65e9d0267df7db90faa5202b4cb1893ccfa93f92f12be9913cd75"
+    },
+    {
+      "path": "src/reliabj/schema.py",
+      "bytes": 1675,
+      "sha256": "d90d4a47c441091c5cbe7630ce066c054a43bae29b3bd3428aa724896d598ef1"
+    },
+    {
+      "path": "tests/__pycache__/test_parsers_metrics.cpython-313.pyc",
+      "bytes": 1960,
+      "sha256": "c3702e5eee64a6ec791e85cce5004ce9cf6576e0489fab56d2df682a8ea93263"
+    },
+    {
+      "path": "tests/__pycache__/test_perturbations.cpython-313.pyc",
+      "bytes": 1575,
+      "sha256": "156062455e9f3425a6861668add5585be17fade6e6abd57ff5a31bd54320ee1e"
+    },
+    {
+      "path": "tests/test_parsers_metrics.py",
+      "bytes": 831,
+      "sha256": "532ce0fb70d2562b9da494debb83feef073bbfe7fe1f23ea82a4706e602b24e4"
+    },
+    {
+      "path": "tests/test_perturbations.py",
+      "bytes": 662,
+      "sha256": "f374814690c6425fdade2a2e78b76f496e670fa293df4b741525defa7c3939ef"
+    }
+  ]
+}

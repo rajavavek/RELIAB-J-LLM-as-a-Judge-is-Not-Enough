@@ -1,0 +1,23 @@
+You are judging two candidate responses.
+
+[USER PROMPT]
+{prompt}
+
+[CONTEXT]
+{context}
+
+[RUBRIC]
+{rubric}
+
+[CANDIDATE A]
+{response_a}
+
+[CANDIDATE B]
+{response_b}
+
+Return valid JSON with exactly these keys:
+{{
+  "winner": "A" | "B" | "tie",
+  "confidence": number between 0 and 1,
+  "rationale": "one concise explanation based on the rubric"
+}}

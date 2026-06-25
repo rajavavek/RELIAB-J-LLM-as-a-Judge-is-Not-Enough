@@ -1,0 +1,6 @@
+Escalate this item to a human expert when any condition is true:
+1. confidence < {confidence_threshold}
+2. multi-judge disagreement > {disagreement_threshold}
+3. domain is medical_legal, safety, code execution, or any user-defined high-risk class
+4. parser fails to extract a valid label
+5. adversarial perturbation causes a label flip

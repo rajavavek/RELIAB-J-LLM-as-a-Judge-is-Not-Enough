@@ -1,0 +1,12 @@
+Domain,Base Items,Variants,Gold Label Type,Human kappa
+Factual QA,150,1500,Binary (winner),0.87
+Mathematical reasoning,120,1200,Binary,0.92
+Code correctness,120,1200,Binary,0.94
+Summarization faithfulness,120,1200,Score (1-5),0.76
+Safety refusal,120,1200,Binary,0.81
+RAG faithfulness,120,1200,Binary,0.79
+Medical/Legal,100,1000,Binary,0.73
+Instruction following,120,1200,Binary,0.84
+Creative writing,100,1000,Score (1-5),0.68
+Multi-step agent,30,300,Binary,0.88
+Total,1200,12000,—,—
